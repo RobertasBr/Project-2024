@@ -6,7 +6,7 @@ function payNow() {
 
     if (cardNumber.length !== 16) {
         alert('Please enter a valid 16-digit card number.');
-        return; 
+        return;
     }
 
     if (expiryDate.trim() === '') {
@@ -32,5 +32,5 @@ function payNow() {
 const isLoggedIn = localStorage.getItem('loggedIn');
 
 if (!isLoggedIn || isLoggedIn !== '1') {
-    window.location.href = "/pages/login.html";
+    window.location.href = "pages/login.html";
 }

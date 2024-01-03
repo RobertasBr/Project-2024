@@ -11,10 +11,8 @@ document.addEventListener('DOMContentLoaded', function () {
   glide.on('beforeTransition', function () {
     var currentSlide = glide.index;
 
-    // Set opacity for all slides
     $('.glide__slide').css('opacity', 0.7);
 
-    // Set full opacity for the center slide
     $('.glide__slide').eq(currentSlide).css('opacity', 1);
   });
 
