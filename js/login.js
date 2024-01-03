@@ -9,7 +9,7 @@ function loginUser(event) {
 
     if (email == "wmitty@email.com" && password == "password1") {
         localStorage.setItem('loggedIn', 1);
-        window.location.href = "pages/shop.html";
+        window.location.href = "shop.html";
     } else {
         localStorage.setItem('loggedIn', 0);
         var element = document.getElementById("loginerror");
@@ -19,6 +19,6 @@ function loginUser(event) {
 
 function redirectToShop() {
     localStorage.setItem('isLoggedIn', 'true');
-    window.location.href = "pages/shop.html";
+    window.location.href = "shop.html";
     return false;
 }

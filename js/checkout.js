@@ -32,5 +32,5 @@ function payNow() {
 const isLoggedIn = localStorage.getItem('loggedIn');
 
 if (!isLoggedIn || isLoggedIn !== '1') {
-    window.location.href = "pages/login.html";
+    window.location.href = "login.html";
 }
