@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    margin-top: auto;
+}
+
+col-sm {
+    overflow: hidden;
+}
+
+.cart-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    z-index: 100;
+    background-color: #545454;
+    color: #fff;
+    padding: 18px 30px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.cart-btn:hover {
+    background-color: #cecece;
+}
+
+.boxshadow {
+    box-shadow: 1px 2px 28px 3px rgba(0,0,0,0.55);
+}
+
+body p {
+    color: rgb(0, 0, 0) !important;
+}
+
+.footer {
+    color: #6c757d !important
+}
+
+#cart {
+    padding-top: 5px !important;
+}

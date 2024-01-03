@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="/css/shop.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <title>About</title>
+    <script src="/js/shop.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark boxshadow">
+        <div class="container">
+            <a class="navbar-brand display-4 fw-bold" href="/pages/index.html">DeluxShop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/login.html" id="loginLogoutBtn">Login</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/checkout.html">Checkout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Product 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/images/laptop.jpg" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Hackbook Pro 17-in</h5>
+                        <p class="card-text">The newest and greatest product from Orange, with the new N4 Max 16-Core
+                            CPU.</p>
+                        <p class="card-text">€2299.99</p>
+                        <button class="btn btn-dark btn-lg" onclick="addToCart()">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/images/pants.jpg" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Mucci Jeans</h5>
+                        <p class="card-text">100% cotton fabric Mucci Jeans.<br>Limited Edition</p>
+                        <p class="card-text">€99.99</p>
+                        <button class="btn btn-dark btn-lg" onclick="addToCart()">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/images/shirt.jpg" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Mucci Shirt</h5>
+                        <p class="card-text">100% Cashmere Shirt.<br>Limited Edition</p>
+                        <p class="card-text">€69.99</p>
+                        <button class="btn btn-dark btn-lg" onclick="addToCart()">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/images/shoes.jpg" class="card-img-top" alt="Product 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Herman Sherman Court Shoe</h5>
+                        <p class="card-text">5.5cm square heel, learther-lined interior. Made in Spain</p>
+                        <p class="card-text">€149.99</p>
+                        <button class="btn btn-dark btn-lg" onclick="addToCart()">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 5 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/images/suit.jpg" class="card-img-top" alt="Product 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Green Double Breasted Tuxedo</h5>
+                        <p class="card-text">The refined look and feel of this green tux will make a long-lasting
+                            impression.</p>
+                        <p class="card-text">€559.99</p>
+                        <button class="btn btn-dark btn-lg" onclick="addToCart()">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 6 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/images/tv.jpg" class="card-img-top" alt="Product 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Sunsang 4K QLED 85-in TV</h5>
+                        <p class="card-text">Super focused lights, deep blacks and brilliant HDR picture.</p>
+                        <p class="card-text">€1999.99</p>
+                        <button class="btn btn-dark btn-lg" onclick="addToCart()">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="/pages/checkout.html" class="cart-btn boxshadow text-decoration-none">
+        <h5 class="fw-bold" id="cart">0</h5>
+    </a>
+    <footer class="bg-dark text-white py-4 mt-5 boxshadow">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p class="footer">DeluxShop is your go to online marketplace for high quality products from
+                        Ireland. Explore our curated collection and enjoy a seamless shopping experience.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/pages/index.html" class="text-white">Home</a></li>
+                        <li><a href="/pages/about.html" class="text-white">About</a></li>
+                        <li><a href="/pages/shop.html" class="text-white">Shop</a></li>
+                        <li><a href="/pages/login.html" class="text-white">Login</a></li>
+                        <li><a href="/pages/checkout.html" class="text-white">Checkout</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact</h5>
+                    <p class="footer">Email: info@deluxshop.com<br>Phone: (089) 228-4591</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/loginlogout.js"></script>
+    <script src="/js/shop.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
